@@ -3,10 +3,15 @@
 
 d={
     'name':'Ayush',
-    'Enr':"22BT04025"
+    'Enr':"22BT04025",
+     1:"AY"
     
     }
 print(d)
 print(type(d))
 print(d['name'])
 print(d['Enr'])
+print(d[1])
+
+for i in d:
+    print(i,d[i])
